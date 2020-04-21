@@ -89,6 +89,7 @@ This section will be completed in the future.
 ## ➤ Roadmap
 
 -   [ ] Add new themes
+-   [ ] Add record and save music
 -   [ ] Add other musical intrument
 -   [ ] Add keyboard tab in home screen
 -   [ ] Complete the learn screen
@@ -96,7 +97,14 @@ This section will be completed in the future.
 -   [ ] Fix delay in keyboard input
 
 
+## ➤ What does Jami use?
+Jami use this libraries:
 
+1- [fyne: Cross platform GUI in Go based on Material Design](https://github.com/fyne-io/fyne)
+
+2- [beep: Beep sound library and utility for alerting end of a command execution](https://github.com/dbatbold/beep)
+</br>
+<br/>
 ## ➤ Contribute
 
 You can send a email to me or send meessage in social networks.
