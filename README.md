@@ -70,7 +70,8 @@ This section will be completed in the future.
 -   [ ] Fix delay in keyboard input
 </br>
 <br/>
-## ➤ contribute
+## ➤ Contribute
+
 You can send a email to me or send meessage in social networks.
 mail: mehrdad.mohammadian.contact@gmail.com
 </br>
