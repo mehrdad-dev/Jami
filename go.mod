@@ -1,4 +1,4 @@
-module piano
+module jami
 
 go 1.12
 

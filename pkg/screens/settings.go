@@ -2,8 +2,8 @@ package screens
 
 import (
 	"fmt"
+	"jami/pkg/sound"
 	"os"
-	"piano/pkg/sound"
 
 	"fyne.io/fyne"
 	"fyne.io/fyne/dialog"

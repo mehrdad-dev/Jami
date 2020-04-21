@@ -1,8 +1,8 @@
 package main
 
 import (
+	"jami/pkg/screens"
 	"os"
-	"piano/pkg/screens"
 
 	"fyne.io/fyne"
 	"fyne.io/fyne/app"

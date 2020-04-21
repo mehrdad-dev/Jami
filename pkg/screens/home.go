@@ -2,7 +2,7 @@ package screens
 
 import (
 	"fmt"
-	"piano/pkg/sound"
+	"jami/pkg/sound"
 
 	"fyne.io/fyne"
 	"fyne.io/fyne/layout"
