@@ -92,6 +92,8 @@ This section will be completed in the future.
 -   [ ] Complete the learn screen
 -   [ ] Complete the documents
 -   [ ] Fix delay in keyboard input
+-   [ ] Fix app icon and about picture
+
 
 
 ## ➤ What does Jami use?
