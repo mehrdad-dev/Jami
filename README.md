@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/mehrdad-dev/Jami/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-informational" alt="License"></a>
+  <a href="https://github.com/mehrdad-dev/Jami/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-informational" alt="License"></a>
 </p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
@@ -58,6 +58,9 @@ A3HLDE [n ov|]m [n    |  pb ic|  n,   lHRq|HLnc DQ[|
 ## ➤ How to write notes?
 You can read docs in below link:
 
+1- [About notes and keywords](https://github.com/mehrdad-dev/Jami/blob/master/Notes.md)
+
+
 This section will be completed in the future.
 </br>
 <br/>
@@ -67,14 +70,15 @@ This section will be completed in the future.
 -   [ ] Add other musical intrument
 -   [ ] Add keyboard tab in home screen
 -   [ ] Complete the learn screen
+-   [ ] Complete the documents
 -   [ ] Fix delay in keyboard input
 </br>
 <br/>
 ## ➤ Contribute
-
 You can send a email to me or send meessage in social networks.
+
 mail: mehrdad.mohammadian.contact@gmail.com
 </br>
 <br/>
 ## ➤ Licence
-MIT
+[MIT Licence](https://github.com/mehrdad-dev/Jami/blob/master/LICENSE)
