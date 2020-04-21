@@ -1,7 +1,9 @@
 package screens
 
 import (
+	"fmt"
 	"net/url"
+	"path/filepath"
 
 	"fyne.io/fyne"
 	"fyne.io/fyne/canvas"
@@ -19,20 +21,23 @@ func parseURL(urlStr string) *url.URL {
 }
 
 func AboutScreen(a fyne.App) fyne.CanvasObject {
-	logo := canvas.NewImageFromFile("/home/mehrdad/Pictures/piano.png")
-	logo.SetMinSize(fyne.NewSize(212, 212))
+	filePath, err := filepath.Abs("../Jami/about.png")
+	if err != nil {
+		fmt.Println("ERR in read about.png ", err)
+	}
+
+	logo := canvas.NewImageFromFile(filePath)
+	logo.SetMinSize(fyne.NewSize(390, 212))
 
 	return widget.NewVBox(
 		widget.NewHBox(layout.NewSpacer(), logo, layout.NewSpacer()),
-		widget.NewLabelWithStyle("Giano", fyne.TextAlignCenter, fyne.TextStyle{Bold: true}),
-		widget.NewLabelWithStyle("A Piano Keyboard Writen In GO", fyne.TextAlignCenter, fyne.TextStyle{Bold: false}),
+		widget.NewLabelWithStyle("Jami is not just a musical instrument", fyne.TextAlignCenter, fyne.TextStyle{Bold: false}),
 
 		widget.NewHBox(layout.NewSpacer(),
 			widget.NewHyperlink("github", parseURL("https://github.com/mehrdad-dev")),
 			widget.NewLabel("-"),
-			widget.NewHyperlink("conntact", parseURL("http://www.mehrdad-dev.ir/contact-me/")),
+			widget.NewHyperlink("contact", parseURL("http://www.mehrdad-dev.ir/contact-me/")),
 			layout.NewSpacer(),
 		),
-		widget.NewLabelWithStyle("Giano v1.1", fyne.TextAlignCenter, fyne.TextStyle{Bold: false}),
 	)
 }
