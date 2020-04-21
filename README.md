@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/about.png" alt="MeiliSearch" width="380" height="195" />
+  <img src="assets/about.png" alt="jami" width="380" height="195" />
 </p>
 
 <h2 align="center">Jami is not a just musical instrument</h2>
@@ -54,11 +54,8 @@ Just download latest release and then run.
 When you download and run app, first you need go to the setting tab and press download button for download natural sounds.
 if you don't this work the app play notes with system sound.
 
-Download for Linux:
-
-Download for Windows:
-
-Download source code:
+## ➤ Download Jami
+Go to the release page and download Jami for your OS:  [release page](https://github.com/mehrdad-dev/Jami/releases)
 </br>
 <br/>
 ## ➤ Demo music
