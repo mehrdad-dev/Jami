@@ -24,6 +24,28 @@ He is the most famous Persian poet of the ninth century AH.
 And this name has been chosen to commemorate his name.
 </br>
 <br/>
+## ➤ Screens
+<a href="https://github.com/mehrdad-dev/Jami/blob/master/assets/screen-1.jpg" target="_blank">
+<img src="https://raw.githubusercontent.com/mehrdad-dev/Jami/master/assets/screen-1.jpg" width="48%">
+</a>
+
+<a href="https://github.com/mehrdad-dev/Jami/blob/master/assets/screen-2.jpg" target="_blank">
+<img src="https://raw.githubusercontent.com/mehrdad-dev/Jami/master/assets/screen-2.jpg" width="48%">
+</a>
+
+<a href="https://github.com/mehrdad-dev/Jami/blob/master/assets/screen-3.jpg" target="_blank">
+<img src="https://raw.githubusercontent.com/mehrdad-dev/Jami/master/assets/screen-3.jpg" width="48%">
+</a>
+
+<a href="https://github.com/mehrdad-dev/Jami/blob/master/assets/screen-4.jpg" target="_blank">
+<img src="https://raw.githubusercontent.com/mehrdad-dev/Jami/master/assets/screen-4.jpg" width="48%">
+</a>
+
+You can see screens in Jami.
+
+Jami have dark and light theme.
+</br>
+<br/>
 ## ➤ How to use?
 Just download latest release and then run.
 
