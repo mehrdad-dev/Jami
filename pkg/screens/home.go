@@ -64,7 +64,7 @@ func makeKeyboardTab() fyne.Widget {
 
 // HomeScreen create home screen
 func HomeScreen(win fyne.Window) fyne.CanvasObject {
-	return fyne.NewContainerWithLayout(layout.NewGridLayout(),
+	return fyne.NewContainerWithLayout(layout.NewGridLayout(1),
 		widget.NewTabContainer(
 			widget.NewTabItem("Notes", makeNoteTab(win)),
 			// widget.NewTabItem("Keyboard", makeKeyboardTab()),
