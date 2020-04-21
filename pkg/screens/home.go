@@ -28,7 +28,7 @@ func makeNoteTab(win fyne.Window) fyne.Widget {
 		fmt.Println(string(r))
 	})
 
-	// Creat input form
+	// Create input form
 	notesInput := widget.NewMultiLineEntry()
 	notesInput.SetPlaceHolder("Fill with notes")
 	form := &widget.Form{
@@ -46,17 +46,28 @@ func makeNoteTab(win fyne.Window) fyne.Widget {
 }
 
 func makeKeyboardTab() fyne.Widget {
+	list2 := widget.NewHBox()
+
+	for i := 1; i <= 8; i++ {
+		index := i
+		button := widget.NewButton(fmt.Sprintf("Button %d", index), func() {
+			fmt.Println("Tapped", index)
+		})
+		button.Resize(fyne.NewSize(50, 50))
+		list2.Append(button)
+	}
 	return widget.NewVBox(
-		widget.NewLabelWithStyle("\n\nEnter notes from keyboard", fyne.TextAlignCenter, fyne.TextStyle{Bold: true}),
+		widget.NewLabelWithStyle("\nEnter notes from keyboard", fyne.TextAlignCenter, fyne.TextStyle{Bold: true}),
+		list2,
 	)
 }
 
 // HomeScreen create home screen
 func HomeScreen(win fyne.Window) fyne.CanvasObject {
-	return fyne.NewContainerWithLayout(layout.NewAdaptiveGridLayout(1),
+	return fyne.NewContainerWithLayout(layout.NewGridLayout(),
 		widget.NewTabContainer(
 			widget.NewTabItem("Notes", makeNoteTab(win)),
-			widget.NewTabItem("Keyboard", makeKeyboardTab()),
+			// widget.NewTabItem("Keyboard", makeKeyboardTab()),
 		),
 	)
 }
