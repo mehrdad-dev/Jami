@@ -1,6 +1,9 @@
 package screens
 
 import (
+	"fmt"
+	"path/filepath"
+
 	"fyne.io/fyne"
 	"fyne.io/fyne/canvas"
 	"fyne.io/fyne/layout"
@@ -9,10 +12,17 @@ import (
 
 // LearnScreen creat scroll screen
 func LearnScreen() fyne.CanvasObject {
-	image := canvas.NewImageFromFile("/home/mehrdad/Documents/Photoshop/PROJECT/eeteraz3.jpg")
-	horiz := widget.NewVScrollContainer(image)
+	filePath, err := filepath.Abs("../Jami/assets/keyboard.jpg")
+	if err != nil {
+		fmt.Println("ERR in read keyboard.jpg ", err)
+	}
 
-	return fyne.NewContainerWithLayout(layout.NewAdaptiveGridLayout(2),
-		fyne.NewContainerWithLayout(layout.NewBorderLayout(nil, nil, nil, nil), horiz),
+	image := canvas.NewImageFromFile(filePath)
+	// image.SetMinSize(fyne.NewSize(590, 212))
+
+	horiz := widget.NewHScrollContainer(image)
+
+	return fyne.NewContainerWithLayout(layout.NewAdaptiveGridLayout(1),
+		fyne.NewContainerWithLayout(layout.NewAdaptiveGridLayout(1), horiz),
 	)
 }
