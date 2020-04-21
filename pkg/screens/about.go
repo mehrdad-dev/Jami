@@ -21,7 +21,7 @@ func parseURL(urlStr string) *url.URL {
 }
 
 func AboutScreen(a fyne.App) fyne.CanvasObject {
-	filePath, err := filepath.Abs("../Jami/about.png")
+	filePath, err := filepath.Abs("../Jami/assets/about.png")
 	if err != nil {
 		fmt.Println("ERR in read about.png ", err)
 	}
