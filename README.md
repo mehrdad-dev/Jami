@@ -2,7 +2,7 @@
   <img src="assets/about.png" alt="jami" width="380" height="195" />
 </p>
 
-<h2 align="center">Jami is not a just musical instrument</h2>
+<h2 align="center">Jami is not just a musical instrument</h2>
 
 
 <p align="center">
