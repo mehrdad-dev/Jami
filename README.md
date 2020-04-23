@@ -86,11 +86,12 @@ This section will be completed in the future.
 ## ➤ Roadmap
 
 -   [ ] Add new themes
--   [ ] Add record and save music
+-   [X] Add record and save music
 -   [ ] Add other musical intrument
 -   [ ] Add keyboard tab in home screen
 -   [ ] Complete the learn screen
 -   [ ] Complete the documents
+-   [X] Fix scroll in home page
 -   [ ] Fix delay in keyboard input
 -   [ ] Fix app icon and about picture
 
