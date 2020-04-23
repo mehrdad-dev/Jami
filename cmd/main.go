@@ -10,15 +10,13 @@ import (
 	"fyne.io/fyne/widget"
 )
 
-const preferenceCurrentTab = "currentTab"
-
 func main() {
 	a := app.NewWithID("com.jami.app")
 	a.SetIcon(theme.FyneLogo())
 
 	w := a.NewWindow("Jami")
 	w.SetMainMenu(fyne.NewMainMenu(
-		fyne.NewMenu("Contorol",
+		fyne.NewMenu("control",
 			fyne.NewMenuItem("Force Quit", func() { os.Exit(1) }),
 		),
 		fyne.NewMenu(
@@ -37,13 +35,9 @@ func main() {
 		widget.NewTabItemWithIcon("About", theme.InfoIcon(), screens.AboutScreen(a)))
 
 	tabs.SetTabLocation(widget.TabLocationBottom)
-	tabs.SelectTabIndex(a.Preferences().Int(preferenceCurrentTab))
 	w.SetContent(tabs)
 	w.Resize(fyne.NewSize(800, 500))
-	w.SetPadded(true)
-
 	// w.SetFixedSize(true)
 
 	w.ShowAndRun()
-	a.Preferences().SetInt(preferenceCurrentTab, tabs.CurrentTabIndex())
 }
