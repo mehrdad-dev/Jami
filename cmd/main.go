@@ -36,10 +36,10 @@ func main() {
 		widget.NewTabItemWithIcon("Settings", theme.SettingsIcon(), screens.SettingsScreen(a, w)),
 		widget.NewTabItemWithIcon("About", theme.InfoIcon(), screens.AboutScreen(a)))
 
-	tabs.SetTabLocation(widget.TabLocationLeading)
+	tabs.SetTabLocation(widget.TabLocationBottom)
 	tabs.SelectTabIndex(a.Preferences().Int(preferenceCurrentTab))
 	w.SetContent(tabs)
-	w.Resize(fyne.NewSize(700, 400))
+	w.Resize(fyne.NewSize(800, 500))
 	w.SetPadded(true)
 
 	// w.SetFixedSize(true)
