@@ -6,6 +6,7 @@ import (
 
 	"fyne.io/fyne"
 	"fyne.io/fyne/layout"
+	"fyne.io/fyne/theme"
 	"fyne.io/fyne/widget"
 )
 
@@ -38,9 +39,16 @@ func makeNoteTab(win fyne.Window) fyne.Widget {
 		},
 	}
 	form.Append("Notes", notesInput)
-	return widget.NewVBox(
+
+	buttonDownload := widget.NewButtonWithIcon("Save Sound to file", theme.DocumentSaveIcon(),
+		func() {
+			sound.SaveNotes(soundSTR + notesInput.Text)
+		})
+
+	return widget.NewGroupWithScroller("Home Page",
 		widget.NewLabelWithStyle("Select Instrument", fyne.TextAlignLeading, fyne.TextStyle{Bold: true}),
 		soundSelector,
+		buttonDownload,
 		form,
 	)
 }
@@ -64,10 +72,11 @@ func makeKeyboardTab() fyne.Widget {
 
 // HomeScreen create home screen
 func HomeScreen(win fyne.Window) fyne.CanvasObject {
-	return fyne.NewContainerWithLayout(layout.NewGridLayout(1),
-		widget.NewTabContainer(
-			widget.NewTabItem("Notes", makeNoteTab(win)),
-			// widget.NewTabItem("Keyboard", makeKeyboardTab()),
-		),
+	return fyne.NewContainerWithLayout(layout.NewAdaptiveGridLayout(1),
+		makeNoteTab(win),
+		// widget.NewTabContainer(
+		// 	widget.NewTabItem("Notes", makeNoteTab(win)),
+		// 	// widget.NewTabItem("Keyboard", makeKeyboardTab()),
+		// ),
 	)
 }
