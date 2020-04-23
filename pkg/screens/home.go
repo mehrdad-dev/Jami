@@ -40,7 +40,7 @@ func makeNoteTab(win fyne.Window) fyne.Widget {
 	}
 	form.Append("Notes", notesInput)
 
-	buttonDownload := widget.NewButtonWithIcon("Save Sound to file", theme.DocumentSaveIcon(),
+	buttonSave := widget.NewButtonWithIcon("Save notes sound in .wav file", theme.DocumentSaveIcon(),
 		func() {
 			sound.SaveNotes(soundSTR + notesInput.Text)
 		})
@@ -48,7 +48,7 @@ func makeNoteTab(win fyne.Window) fyne.Widget {
 	return widget.NewGroupWithScroller("Home Page",
 		widget.NewLabelWithStyle("Select Instrument", fyne.TextAlignLeading, fyne.TextStyle{Bold: true}),
 		soundSelector,
-		buttonDownload,
+		buttonSave,
 		form,
 	)
 }
