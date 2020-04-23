@@ -86,7 +86,7 @@ This section will be completed in the future.
 ## ➤ Roadmap
 
 -   [ ] Add new themes
--   [X] Add record and save music
+-   [X] Add save music in .wav file
 -   [ ] Add other musical intrument
 -   [ ] Add keyboard tab in home screen
 -   [ ] Complete the learn screen
