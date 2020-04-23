@@ -83,7 +83,7 @@ You can read docs in below link:
 This section will be completed in the future.
 </br>
 <br/>
-## ➤ Roadmap
+## ➤ Roadmap for v2.0
 
 -   [ ] Add new themes
 -   [X] Add save music in .wav file
