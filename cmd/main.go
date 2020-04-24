@@ -16,7 +16,7 @@ func main() {
 
 	w := a.NewWindow("Jami")
 	w.SetMainMenu(fyne.NewMainMenu(
-		fyne.NewMenu("control",
+		fyne.NewMenu("Control",
 			fyne.NewMenuItem("Force Quit", func() { os.Exit(1) }),
 		),
 		fyne.NewMenu(
