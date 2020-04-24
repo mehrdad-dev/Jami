@@ -10,10 +10,10 @@ import (
 	"fyne.io/fyne/widget"
 )
 
-func makeNoteTab(win fyne.Window) fyne.Widget {
+func makeHome(win fyne.Window) fyne.Widget {
 	var soundSTR string
 
-	// Creat sound selector
+	// Create sound selector
 	soundSelector := widget.NewSelect([]string{"Piano", "Violin", "System"}, func(s string) {
 		if s == "Piano" {
 			soundSTR = "VP SA9 SR9\n"
@@ -26,7 +26,6 @@ func makeNoteTab(win fyne.Window) fyne.Widget {
 
 	win.Canvas().SetOnTypedRune(func(r rune) {
 		sound.PlayNotes(soundSTR + string(r))
-		fmt.Println(string(r))
 	})
 
 	// Create input form
@@ -34,7 +33,6 @@ func makeNoteTab(win fyne.Window) fyne.Widget {
 	notesInput.SetPlaceHolder("Fill with notes")
 	form := &widget.Form{
 		OnSubmit: func() {
-			fmt.Println("Notes:", notesInput.Text)
 			sound.PlayNotes(soundSTR + notesInput.Text)
 		},
 	}
@@ -73,7 +71,7 @@ func makeKeyboardTab() fyne.Widget {
 // HomeScreen create home screen
 func HomeScreen(win fyne.Window) fyne.CanvasObject {
 	return fyne.NewContainerWithLayout(layout.NewAdaptiveGridLayout(1),
-		makeNoteTab(win),
+		makeHome(win),
 		// widget.NewTabContainer(
 		// 	widget.NewTabItem("Notes", makeNoteTab(win)),
 		// 	// widget.NewTabItem("Keyboard", makeKeyboardTab()),
