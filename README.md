@@ -86,10 +86,9 @@ This section will be completed in the future.
 ## ➤ Roadmap for v2.0
 
 -   [ ] Add new themes
+-   [ٓX] Add piano keyboard tab
 -   [X] Add save music in .wav file
 -   [ ] Add other musical intrument
--   [ ] Add keyboard tab in home screen
--   [ ] Complete the learn screen
 -   [ ] Complete the documents
 -   [X] Fix scroll in home page
 -   [ ] Fix delay in keyboard input
