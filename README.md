@@ -86,7 +86,7 @@ This section will be completed in the future.
 ## ➤ Roadmap for v2.0
 
 -   [ ] Add new themes
--   [ٓX] Add piano keyboard tab
+-   [X] Add piano keyboard tab
 -   [X] Add save music in .wav file
 -   [ ] Add other musical intrument
 -   [ ] Complete the documents
