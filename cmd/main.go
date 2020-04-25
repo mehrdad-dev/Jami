@@ -30,7 +30,7 @@ func main() {
 
 	tabs := widget.NewTabContainer(
 		widget.NewTabItemWithIcon("Home", theme.HomeIcon(), screens.HomeScreen(w)),
-		widget.NewTabItemWithIcon("Learn", theme.HelpIcon(), screens.LearnScreen()),
+		widget.NewTabItemWithIcon("Keyboard", theme.HomeIcon(), screens.KeyboardScreen(w)),
 		widget.NewTabItemWithIcon("Settings", theme.SettingsIcon(), screens.SettingsScreen(a, w)),
 		widget.NewTabItemWithIcon("About", theme.InfoIcon(), screens.AboutScreen(a)))
 
