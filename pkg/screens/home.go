@@ -24,10 +24,6 @@ func makeHome(win fyne.Window) fyne.Widget {
 		}
 	})
 
-	win.Canvas().SetOnTypedRune(func(r rune) {
-		sound.PlayNotes(soundSTR + string(r))
-	})
-
 	// Create input form
 	notesInput := widget.NewMultiLineEntry()
 	notesInput.SetPlaceHolder("Fill with notes")
