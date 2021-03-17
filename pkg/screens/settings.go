@@ -2,7 +2,7 @@ package screens
 
 import (
 	"fmt"
-	"jami/pkg/sound"
+	"github.com/mehrdad-dev/Jami/pkg/sound"
 	"os"
 
 	"fyne.io/fyne"
