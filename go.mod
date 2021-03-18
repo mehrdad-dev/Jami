@@ -1,4 +1,4 @@
-module jami
+module github.com/mehrdad-dev/Jami
 
 go 1.12
 

@@ -1,7 +1,7 @@
 package screens
 
 import (
-	"jami/pkg/sound"
+	"github.com/mehrdad-dev/Jami/pkg/sound"
 
 	"fyne.io/fyne"
 	"fyne.io/fyne/layout"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"jami/pkg/screens"
+	"github.com/mehrdad-dev/Jami/pkg/screens"
 	"os"
 
 	"fyne.io/fyne"
