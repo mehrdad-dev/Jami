@@ -17,8 +17,7 @@
 Jami is a simple cross platform GUI for play some musical instrument.
 </br>
 <br/>
-
-Jami in [fyne apps list](https://apps.fyne.io/)
+✌️ Now you can see Jami in: [fyne apps list](https://apps.fyne.io/)
 
 ## ➤ Who is Jami?
 Jami is an Iranian poet, musician and writer
