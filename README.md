@@ -109,7 +109,7 @@ Jami use this libraries:
 <br/>
 ## ➤ Contribute
 
-You can send a email to me or send meessage in social networks.
+You can send a email to me or create a issue.
 
 mail: mehrdad.mohammadian.contact@gmail.com
 </br>
