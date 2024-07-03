@@ -14,7 +14,7 @@
 <br/>
 
 ## ➤ What is Jami?
-Jami is a simple cross platform GUI for play some musical instrument.
+Jami is a simple cross-platform GUI for playing some musical instruments.
 </br>
 <br/>
 ✌️ Now you can see Jami in: [fyne apps list](https://apps.fyne.io/)
@@ -53,8 +53,8 @@ Just download latest release and then run.
 
 ❌ Important Notice:
 
-When you download and run app, first you need go to the setting tab and press download button for download natural sounds.
-if you don't this work the app play notes with system sound.
+When you download and run the app, first you need to go to the settings tab and press the download button for download natural sounds.
+if you don't this work the app plays notes with system sound.
 
 ## ➤ Download Jami
 Go to the release page and download Jami for your OS:  [release page](https://github.com/mehrdad-dev/Jami/releases)
@@ -90,27 +90,27 @@ This section will be completed in the future.
 -   [ ] Add new themes
 -   [X] Add piano keyboard tab
 -   [X] Add save music in .wav file
--   [ ] Add other musical intrument
+-   [ ] Add other musical instrument
 -   [ ] Complete the documents
--   [X] Fix scroll in home page
+-   [X] Fix scroll on the home page
 -   [ ] Fix delay in keyboard input
--   [ ] Fix app icon and about picture
+-   [ ] Fix the app icon and picture
 
 
 
 ## ➤ What does Jami use?
-Jami use this libraries:
+Jami uses these libraries:
 
-1- [fyne: Cross platform GUI in Go based on Material Design](https://github.com/fyne-io/fyne)
+1- [fyne: Cross-platform GUI in Go based on Material Design](https://github.com/fyne-io/fyne)
 
 2- [beep: Beep sound library and utility for alerting end of a command execution](https://github.com/dbatbold/beep)
 </br>
 <br/>
 ## ➤ Contribute
 
-You can send a email to me or create a issue.
+You can send an email to me or create an issue.
 
-mail: mehrdad.mohammadian.contact@gmail.com
+mail: mehrdad.mhmdn@gmail.com
 </br>
 <br/>
 ## ➤ Licence
